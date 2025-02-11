@@ -1,37 +1,39 @@
 body {
+    background-color: #18453B; /* MSU Green */
+    color: #FFFFFF; /* White text */
     font-family: Arial, sans-serif;
-    background-color: #001F3F; /* Dark blue */
-    color: white;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #003DA5; /* NCAA Blue */
+    background-color: #FFFFFF; /* White */
+    color: #18453B; /* MSU Green */
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
 }
 
 .about, .favorites, .playtime {
-    background-color: #002855;
-    padding: 20px;
+    background-color: #2A6041; /* Darker MSU Green */
     margin: 20px auto;
-    width: 80%;
+    padding: 20px;
     border-radius: 10px;
-}
-
-h1, h2, h3 {
-    color: #FFC72C; /* NCAA Gold */
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 a {
-    color: #FFC72C;
+    color: #FFC72C; /* MSU Gold */
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
+h2 {
+    color: #FFC72C;
+}
+
+.game h3 {
+    color: #FFFFFF;
 }
