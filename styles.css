@@ -14,14 +14,6 @@ header {
     font-weight: bold;
 }
 
-.profile-pic {
-    border-radius: 50%;
-    margin-top: 20px;
-    width: 200px;
-    height: 200px;
-    border: 5px solid white;
-}
-
 .about, .favorites, .playtime {
     background-color: #002855;
     padding: 20px;
