@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001F3F; /* Dark blue */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #003DA5; /* NCAA Blue */
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+}
+
+.about, .favorites, .playtime {
+    background-color: #002855;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #FFC72C; /* NCAA Gold */
+}
+
+a {
+    color: #FFC72C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
