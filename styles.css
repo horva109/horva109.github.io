@@ -35,3 +35,8 @@ h2 {
     color: #FFFFFF;
 }
 
+.adventure {
+    display: flex;
+    align-items: center;
+}
+
