@@ -38,5 +38,13 @@ h2 {
 .adventure {
     display: flex;
     align-items: center;
+    gap: 15px; 
+    margin-bottom: 20px; 
+}
+
+.adventure img {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
 }
 
